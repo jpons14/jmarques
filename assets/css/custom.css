@@ -1,3 +1,41 @@
 .float-left{
     float: left;
 }
+.taula {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.taula > tbody + tbody {
+    border-top: 2px solid #ddd;
+}
+.taula > tbody + tbody {
+    border-top: 2px solid #ddd;
+}
+.taula .taula {
+    background-color: #fff;
+}
+.taula > thead > tr > th,
+.taula > tbody > tr > th,
+.taula > tfoot > tr > th,
+.taula > thead > tr > td,
+.taula > tbody > tr > td,
+.taula > tfoot > tr > td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+.taula > thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd;
+}
+
+.taula > tbody > tr:nth-child(odd) > td,
+.taula > tbody > tr:nth-child(odd) > th {
+    background-color: #f9f9f9;
+}
+.w3c-coffee{
+    width: 100px;
+    height: 100px;
+}
