@@ -23,6 +23,6 @@ Route::get('contact', function () {
 Route::get('concierto', function () {
     return view('concierto');
 });
-Route::get('/', function () {
+Route::get('concierto', function () {
     return view('concierto');
 });
